@@ -20,16 +20,7 @@
   "entrypoints": {
     "main": [
 			"gungun974.brainless.BrainlessMod"
-    ],
-		"beforeGameStart": [
-			"gungun974.brainless.BrainlessMod"
-		],
-		"afterGameStart": [
-			"gungun974.brainless.BrainlessMod"
-		],
-		"recipesReady": [
-			"gungun974.brainless.BrainlessMod"
-		]
+    ]
 	},
   "mixins": [
 		"brainless.mixins.json"
