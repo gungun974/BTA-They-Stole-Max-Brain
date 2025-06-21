@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gungun974.brainless.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MobAnimalMixin",
+    "MobMonsterMixin",
+    "MobSlimeMixin"
+  ],
+  "client": [
+    "MobRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

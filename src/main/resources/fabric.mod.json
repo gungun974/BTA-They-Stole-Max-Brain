@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "brainless",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "They Stole Max's Brain !",
+  "description": "This make possible to disable mob IA with a label tag.",
   "authors": [
-    "Turnip Labs"
+    "Gungun74"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"gungun974.brainless.BrainlessMod"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"gungun974.brainless.BrainlessMod"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"gungun974.brainless.BrainlessMod"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"gungun974.brainless.BrainlessMod"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"brainless.mixins.json"
   ],
 
   "depends": {
